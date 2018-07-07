@@ -1,0 +1,10 @@
+---
+- enginefile:
+#config location
+  - enginefile_path : /opt/enginefile.conf
+#local deploy info
+  - engine_deploy_local: deploy.yml 
+# demo deploy info
+  - engine_demo: demo.yml
+# security center
+  - engine_security: security.yml
